@@ -1,0 +1,17 @@
+{
+    "id": "v-tabs",
+    "name": "自定义 tab 选项卡 2",
+    "version": "2.0.10",
+    "description": "自定义 tab ，支持多种样式，支持 h5 小程序 app",
+    "keywords": [
+        "tab",
+        "选项卡",
+        "v-tabs"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

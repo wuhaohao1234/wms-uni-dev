@@ -1,0 +1,181 @@
+{
+	"pages": [{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"bounce": "none"
+				},
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+
+		}, {
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单列表",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/myPage/myPage",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "云仓",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+
+		{
+			"path": "pages/myPage/address/address",
+			"style": {
+				"navigationBarTitleText": "地址管理",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/myPage/address/editAddress",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/order/orderDetail/orderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/commodity/commodityDetail/commodityDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/myPage/serviceMoney/serviceHistory",
+			"style": {
+				"navigationBarTitleText": "服务金账单",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/myPage/serviceMoney/serviceMoney",
+			"style": {
+				"navigationBarTitleText": "服务金管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/myPage/shop/shop",
+			"style": {
+				"navigationBarTitleText": "选择店铺",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/myPage/info/info",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},   {
+			"path": "pages/notBound/notBound",
+			"style": {
+				"navigationBarTitleText": "未绑定",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/payThroughApp/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/proxy/proxy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/logistics/logistics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "物流详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/proxy/notice",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+
+
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/icons/icon_order.png",
+				"selectedIconPath": "static/icons/icon_order_hl.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/myPage/myPage",
+				"iconPath": "static/icons/icon_mine.png",
+				"selectedIconPath": "static/icons/icon_mine_hl.png",
+				"text": "我的"
+			}
+		]
+	},
+
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
